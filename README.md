@@ -21,3 +21,9 @@ Give the command to run mysql inside container:
 ```bash
 docker exec -it mysql -u root -p
 ```
+
+# Try you at home:
+
+If you want to try this at home you can access this URL:
+
+[W3Schools Sandbox](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_like_not)
