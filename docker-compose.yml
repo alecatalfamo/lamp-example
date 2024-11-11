@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   apache:
+    container_name: apache
     image: php:8.2-apache
     ports:
       - "80:80"
@@ -22,6 +23,7 @@ services:
              apache2-foreground"
 
   mysql:
+    container_name: mysql
     image: mysql:8.0
     ports:
       - "3306:3306"
@@ -36,6 +38,7 @@ services:
     restart: always
 
   phpmyadmin:
+    container_name: phpmyadmin
     image: phpmyadmin/phpmyadmin
     ports:
       - "8080:80"

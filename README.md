@@ -15,3 +15,9 @@ This is a repo for deployment of LAMP stack using docker-compose.
 
 ## Edit PHP files
 - Edit the PHP files in the `www` directory
+
+## Interact with MySQL
+Give the command to run mysql inside container:
+```bash
+docker exec -it mysql -u root -p
+```
